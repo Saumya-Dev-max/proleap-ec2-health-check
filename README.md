@@ -31,3 +31,11 @@ This project performs automated health checks on an Ubuntu AWS EC2 web server.
 ```bash
 chmod +x scripts/ec2-health-check.sh
 bash scripts/ec2-health-check.sh
+## EC2 Deployment Checklist
+- EC2 instance is running
+- SSH is restricted to My IP
+- HTTP port 80 is open
+- Nginx service is active
+- Custom website is deployed
+- Health check script is executable
+- Health report is generated
